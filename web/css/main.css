@@ -3,7 +3,7 @@
 	src:url(HelveticaNarrow.ttf);
 }
 body{
-    background:#000000 url(../images/background.jpg) no-repeat center;
+    background:#000000 url(../images/background.jpg) center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     background-size:cover;
