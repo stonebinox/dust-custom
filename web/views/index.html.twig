@@ -1,15 +1,21 @@
 {% extends "layout.html" %}
 {% block content %}
-<body>
-    <div class="container">
-        
+<body ng-app="custom">
+    <div class="container" ng-controller="mvp">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img src="images/dust-logo.png" border=0 alt="Dust" class="img-thumbnail">&nbsp;Custom</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <div class="container-fluid">
         <div id="myModal" class="modal fade" role="dialog"></div>
     </div>
-    <br>
-    <br>
-    <br>
-    <div id="footer" onclick="window.location='https://twitter.com/thedustmakers';"></div>
 </body>
 {% endblock %}
