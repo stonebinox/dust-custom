@@ -2,7 +2,7 @@
 	font-family: Narrow;
 	src:url(HelveticaNarrow.ttf);
 }
-body{
+html{
     background:#000000 url(../images/background.jpg) center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
