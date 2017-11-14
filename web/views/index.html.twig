@@ -1,15 +1,17 @@
 {% extends "layout.html" %}
 {% block content %}
 <body ng-app="custom">
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="https://new-dust.herokuapp.com/"><img src="images/dust-logo.png" border=0 alt="Dust" class="img-responsive" width=80 style="position:relative;top:-8px;"></a>
             </div>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#" onclick="window.location.reload(true);">Custom</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign up</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </div>
     </nav>
