@@ -2,11 +2,16 @@
 	font-family: Narrow;
 	src:url(HelveticaNarrow.ttf);
 }
+@font-face{
+	font-family: Afta;
+	src:url(AftaSerifThin-Regular.otf);
+}
 body{
     background:#000000 url(../images/background.jpg) center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     background-size:cover;
+    font-family: Afta, Arial, Helvetica, sans-serif;
 }
 h1{
     font-family: Narrow, Arial, Helvetica, sans-serif;
